@@ -1,0 +1,102 @@
+{
+	"_id" : ObjectId("5c41ff55e49f47482247c966"),
+	"Match Details" : MatchID,
+	"Date Played:" : "15 January 2019 - 4:29 pm",
+	"Match Rating:" : "2667",
+	"Map:" : "Custom",
+	"Duration:" : "00:24:26",
+	"Players:" : "2",
+	"Game Mod:" : "v1.5 Beta R7 | WololoKingdoms",
+	"Win" : [
+		{
+			"ID" : PlayerID,
+			"Name" : PlayerName,
+			"Civilzation" : "Turks",
+			"Team" : 1,
+			"Overall" : {
+				"Military Score" : "339",
+				"Economy Score" : "1092",
+				"Technology Score" : "583",
+				"Society Score" : "0",
+				"Total" : "2014"
+			},
+			"Military" : {
+				"Unit Killed" : "28",
+				"Unit Lost" : "25",
+				"Building Razed" : "1",
+				"Building Lost" : "0",
+				"Units Converted" : "0"
+			},
+			"Economy" : {
+				"Food" : "3631",
+				"Wood" : "3513",
+				"Stone" : "262",
+				"Gold" : "1202",
+				"Trade" : "0",
+				"Received" : "0",
+				"Sent" : "0"
+			},
+			"Technology" : {
+				"Fedual Time" : "00:10:13",
+				"Castle Time" : "n/a",
+				"Imperial Time" : "n/a",
+				"Map Explored" : "34%",
+				"Research Count" : "6",
+				"Research Percentage" : "3%"
+			},
+			"Society" : {
+				"Total Wonders" : "0",
+				"Total Castles" : "0",
+				"Relic Capture" : "0",
+				"Relic Gold" : "0",
+				"Viliager High" : "41"
+			}
+		}
+	],
+	"Loss" : [
+		{
+			"ID" : PlayerID,
+			"Name" : PlayerName,
+			"Civilzation" : "Incas",
+			"Team" : 2,
+			"Overall" : {
+				"Military Score" : "346",
+				"Economy Score" : "621",
+				"Technology Score" : "790",
+				"Society Score" : "0",
+				"Total" : "1757"
+			},
+			"Military" : {
+				"Unit Killed" : "25",
+				"Unit Lost" : "29",
+				"Building Razed" : "0",
+				"Building Lost" : "1",
+				"Units Converted" : "0"
+			},
+			"Economy" : {
+				"Food" : "3387",
+				"Wood" : "2017",
+				"Stone" : "506",
+				"Gold" : "65",
+				"Trade" : "0",
+				"Received" : "0",
+				"Sent" : "0"
+			},
+			"Technology" : {
+				"Fedual Time" : "00:09:49",
+				"Castle Time" : "n/a",
+				"Imperial Time" : "n/a",
+				"Map Explored" : "54%",
+				"Research Count" : "7",
+				"Research Percentage" : "4%"
+			},
+			"Society" : {
+				"Total Wonders" : "0",
+				"Total Castles" : "0",
+				"Relic Capture" : "0",
+				"Relic Gold" : "0",
+				"Viliager High" : "27"
+			}
+		}
+	]
+}

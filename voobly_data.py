@@ -271,6 +271,7 @@ def combine(match,player,score,military,economy,tech,society):
     return match
 
 def write(file):
+	#write the collected data into the local MongoDB
     try:
         x = mycol.insert_one(file)
     except:
@@ -310,9 +311,11 @@ def write_record(file):
         print('successfully write the record')
 
 if __name__ == "__main__":
+	#Login to the local MongoDB
     myclient = pymongo.MongoClient("mongodb://localhost:27017/")
     mydb = myclient["voobly"]
     mycol = mydb["games"]
+    #This is for the voobly account and login to voobly
     form = {'username': USERNAME, 'password': PASSWORD}
     rank_num = 1  # suggesting 1-5
     rank = 20 #1-20
